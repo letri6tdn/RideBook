@@ -1,0 +1,1 @@
+App was tested on Pixel XL API 29 and Nexus 5 API 24
