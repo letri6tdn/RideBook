@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ride_date_textView_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Date"
+                android:textColor="#FF00C7"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/ride_date_editText_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="YYYY-MM-DD"
+                android:inputType="date"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/ride_time_textView_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Time"
+                android:textColor="#FF00C7"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/ride_time_editText_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="hh:mm"
+                android:inputType="time"
+                android:textStyle="italic"></EditText>
+
+            <TextView
+                android:id="@+id/ride_distance_textView_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Distance"
+                android:textColor="#FF00C7"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/ride_distance_editText_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="(km)"
+                android:inputType="numberDecimal"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ride_speed_textView_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Average speed"
+                android:textColor="#FF00C7"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/ride_speed_editText_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="(km/h)"
+                android:inputType="numberDecimal"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ride_cadence_textView_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Average cadence"
+                android:textColor="#FF00C7"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/ride_cadence_editText_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="(revolutions per minute)"
+                android:inputType="number"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ride_comment_textView_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Comment"
+                android:textColor="#FF00C7"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/ride_comment_editText_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="(optional) (maximum 20 characters)"
+                android:inputType="textShortMessage"
+                android:maxLength="20"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
